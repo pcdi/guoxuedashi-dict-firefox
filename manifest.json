@@ -1,0 +1,18 @@
+{
+
+    "manifest_version": 2,
+    "name": "Guoxue Dashi dictionary 国学大师词典",
+    "version": "1.0",
+
+    "description": "Adds the Guoxue Dashi dictionary search engine.",
+
+    "chrome_settings_overrides": {
+	"search_provider": {
+	    "name": "国学大师词典",
+	    "search_url": "https://m2.guoxuedashi.com/zidian/so.php?kz=1&sokeyzi={searchTerms}",
+	    "keyword": "gxds",
+	    "favicon_url": "https://m2.guoxuedashi.com/app/img/gxds.png"
+	}
+    }
+
+}
